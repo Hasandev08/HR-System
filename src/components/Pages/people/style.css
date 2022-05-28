@@ -1,0 +1,78 @@
+.people {
+  background-color: rgb(243, 241, 241);
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column !important;
+}
+.side {
+  background-color: #fff;
+  width: 80px;
+  border-right: 1px solid rgb(243, 241, 241);
+}
+.bar {
+  padding-bottom: 100%;
+  padding: 35px;
+  height: 100%;
+}
+.box {
+  padding-bottom: 70px;
+}
+.right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.navbar {
+  background-color: #fff;
+  padding-bottom: 62px !important;
+  margin-bottom: 20px;
+}
+.right-section .card {
+  margin: 10px 10px 10px 0px;
+  padding-bottom: 50px;
+  background-color: #fff;
+  border: none;
+  border-radius: 0px 10px 0px 0px;
+  flex-grow: 3;
+}
+.right-section .card-header {
+  background-color: #fff;
+  margin: auto 10px;
+  padding: 0;
+  border: none;
+}
+.card-header h2 {
+  margin: 35px auto 50px 5px;
+  font-weight: normal;
+}
+.card-root {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 4;
+}
+.card-root .card-scroller button {
+  background-color: #fff;
+  color: rgb(143, 140, 140);
+  position: absolute;
+  width: 280px;
+  padding-bottom: 5px;
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 1.2rem;
+  border: none;
+  border-bottom: 5px solid #27bab1;
+}
+.card-root .card-scroller .separator {
+  border-bottom: 2.5px solid rgb(201, 197, 197);
+  margin: 39px 40px 0px 10px;
+}
+.card-root .card-body {
+  padding-left: 10px;
+}
