@@ -62,7 +62,7 @@ function TablePaginationActions({ count, page, rowsPerPage, onPageChange }) {
   };
 
   return (
-    <Box sx={{ flexShrink: 0, ml: 2.5 }}>
+    <Box sx={{ flexShrink: 0, ml: 2.5 }} className="paginate">
       <IconButton
         onClick={handleFirstPageButtonClick}
         disabled={page === 0}

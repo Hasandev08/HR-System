@@ -2,7 +2,6 @@ import React from "react";
 import "./style.css";
 
 const Input = ({ values, handleChange, className }) => {
-  console.log(values);
   return (
     <div className="input">
       {values.map((item, index) => (

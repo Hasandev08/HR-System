@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import Input from "../../input/index";
+import ToggleButton from "../ToggleButton";
 import "./style.css";
-
-import Switch from "@mui/material/Switch";
 
 import Autocomplete from "@mui/material/Autocomplete";
 import TextField from "@mui/material/TextField";
@@ -16,8 +15,6 @@ const SearchBar = ({ people, getQueryString, getTitleFilter }) => {
       value: ""
     }
   ]);
-
-  const label = { inputProps: { "aria-label": "Switch demo" } };
 
   const handleChange = (val) => {
     let tempValues = values[0];
@@ -35,21 +32,15 @@ const SearchBar = ({ people, getQueryString, getTitleFilter }) => {
       <div className="search">
         <Input
           values={values}
-          className={"searchBar"}
+          className={"searchItem"}
           handleChange={handleChange}
         />
       </div>
-      <div className="switch">
-        <Switch
-          {...label}
-          defaultChecked
-          onChange={(val, l) => {
-            console.log(l);
-          }}
-        />
+      <div className="button">
+        <ToggleButton />
       </div>
       <div className="filter">
-        <Stack spacing={3} sx={{ width: 500 }}>
+        <Stack spacing={3} sx={{ width: 650 }}>
           <Autocomplete
             multiple
             id="size-small-outlined-multi"
@@ -58,7 +49,7 @@ const SearchBar = ({ people, getQueryString, getTitleFilter }) => {
             onChange={handleTitleChange}
             getOptionLabel={(option) => option.title}
             renderInput={(params) => (
-              <TextField {...params} placeholder="Filter" />
+              <TextField {...params} label="Filter" placeholder="Filter" />
             )}
           />
         </Stack>

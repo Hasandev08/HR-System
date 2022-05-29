@@ -27,10 +27,18 @@ const EnhancedTableBody = ({
   people
 }) => {
   const navigate = useNavigate();
+
   const [data, setData] = useState(people);
   const [queryStr, setQueryStr] = useState([]);
   const [titleFilter, setTitleFilter] = useState([]);
-  // const [showTable, setShowTable] = useState(true);
+
+  const getQueryString = (e) => {
+    handleQueryStr(e);
+  };
+
+  const getTitleFilter = (val) => {
+    handleTitleFilter(val);
+  };
 
   const handleQueryStr = (e, total = people) => {
     if (e === "") {
@@ -75,14 +83,6 @@ const EnhancedTableBody = ({
         setTitleFilter(resultArr);
       }
     }
-  };
-
-  const getQueryString = (e) => {
-    handleQueryStr(e);
-  };
-
-  const getTitleFilter = (val) => {
-    handleTitleFilter(val);
   };
 
   return (

@@ -1,6 +1,16 @@
 .searchBar {
-  margin-top: 15px;
+  padding-bottom: 5px;
+  margin: 15px 20px auto auto;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  border-bottom: 1px solid #999999;
+}
+.searchItem {
+  border: 1px solid #999999;
+  border-radius: 7px;
+  color: #333333;
+  padding: 2.5%;
+  margin-right: 25px;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
