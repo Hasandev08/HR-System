@@ -1,0 +1,35 @@
+.profile {
+  font-family: sans-serif;
+  text-align: center;
+}
+.col-md-4 {
+  margin-bottom: 30px;
+}
+.profile-card {
+  padding: 100px 0px 0px;
+  border: solid 1px rgba(0, 0, 0, 0.08);
+  margin: 20px 150px 20px 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.profile-card:hover {
+  box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.08);
+}
+.card-name {
+  margin-top: 100px;
+  font-size: medium;
+}
+.card-email {
+  color: #818285;
+  text-decoration: underline;
+}
+.phone {
+  color: #818285;
+}
+.card-title {
+  margin: 50px auto 0px;
+  font-weight: 300;
+  background-color: #f1f6fd;
+  padding: 25px;
+  font-weight: bold;
+}

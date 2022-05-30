@@ -34,11 +34,12 @@
   margin-bottom: 20px;
 }
 .right-section .card {
-  margin: 10px 10px 10px 0px;
-  padding-bottom: 50px;
+  margin: 10px 10px 20px 0px;
+  padding-bottom: 25px;
   background-color: #fff;
   border: none;
-  border-radius: 0px 10px 0px 0px;
+  border-radius: 0px 10px 10px 0px;
+  box-shadow: 0 3px 12px 0px rgba(0, 0, 0, 0.08);
   flex-grow: 3;
 }
 .right-section .card-header {
@@ -71,7 +72,7 @@
 }
 .card-root .card-scroller .separator {
   border-bottom: 2.5px solid rgb(201, 197, 197);
-  margin: 39px 40px 0px 10px;
+  margin: 39px 35px 0px 10px;
 }
 .card-root .card-body {
   padding-left: 10px;

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Footer from "../../common/footer";
+import Body from "../../common/body";
 import "./style.css";
 
 const People = () => {
@@ -34,7 +34,7 @@ const People = () => {
                 <div className="separator"></div>
               </div>
               <div className="card-body">
-                {people && <Footer people={people} />}
+                {people && <Body people={people} />}
               </div>
             </div>
           </div>
