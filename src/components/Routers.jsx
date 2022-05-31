@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Login from "./Pages/login";
-import People from "./Pages/people";
-import Form from "./common/form";
-import Signup from "./Pages/signup/index";
+import Login from "./Pages/Login";
+import People from "./Pages/People";
+import Form from "./common/Form";
+import Signup from "./Pages/Signup/index";
 
 import { Route, Routes } from "react-router-dom";
 

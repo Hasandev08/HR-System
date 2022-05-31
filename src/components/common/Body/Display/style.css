@@ -1,0 +1,12 @@
+.search-bar {
+  border-bottom: 1px solid #999999;
+  padding: 0px !important;
+}
+.searchBar {
+  padding-bottom: 5px;
+  margin: 15px auto 20px;
+  display: flex;
+}
+.switch {
+  margin-left: 0px !important;
+}

@@ -1,0 +1,76 @@
+.form-container {
+  margin-top: 7%;
+  margin-left: -40px;
+  text-align: center;
+}
+.container {
+  display: inline-block;
+  width: 512px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+  position: relative;
+}
+.data {
+  background: #ffffff;
+  border-radius: 2px;
+  box-shadow: 0 4px 24px #0000001a;
+  margin: 0 300px 28px;
+  padding: 60px;
+  text-align: left;
+}
+.update-user {
+  color: #16a9a0;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 2rem;
+}
+.update-form-input input {
+  border: 0.5px solid #e6e6e6;
+  border-radius: 7px;
+  color: #333;
+  padding: 7px 20px;
+  margin: 5px 50px;
+  width: 75%;
+  font-weight: 350;
+  font-size: 13px;
+}
+.update-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 50px auto;
+}
+.update {
+  color: white;
+  background-color: #16a9a0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  min-width: 64px;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 4px;
+}
+.update:hover {
+  box-shadow: 0 4px 24px #0000001a;
+}
+.delete {
+  color: white;
+  background-color: rgb(255, 99, 71);
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  min-width: 64px;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 4px;
+}
+.delete:hover {
+  box-shadow: 0 4px 24px #0000001a;
+}

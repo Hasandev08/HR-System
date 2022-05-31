@@ -1,0 +1,17 @@
+.search {
+  margin-right: -25px;
+}
+.searchItem {
+  border: 1px solid #999999;
+  border-radius: 7px;
+  color: #333333;
+  padding: 7px 8px 7px 25px;
+  margin-right: 40px;
+  font-weight: 400;
+  font-size: small;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.searchIcon {
+  position: absolute;
+  padding: 5px 10px 3px 3px;
+}
