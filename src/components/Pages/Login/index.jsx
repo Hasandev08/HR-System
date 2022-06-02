@@ -40,7 +40,7 @@ const Login = ({ login }) => {
     <div className="app">
       <div className="form">
         <Logo />
-        <form onSubmit={handleSubmit}>
+        <form>
           <div className="form-inner">
             <Input
               className={values.error ? "error-form-input" : "form-input"}
@@ -49,6 +49,7 @@ const Login = ({ login }) => {
             />
             <button
               className="login-button"
+              onSubmit={handleSubmit}
               onClick={() => navigate("/people")}
             >
               SIGN IN

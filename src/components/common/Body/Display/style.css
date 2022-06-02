@@ -10,3 +10,16 @@
 .switch {
   margin-left: 0px !important;
 }
+@media screen and (max-width: 425px) {
+  .search-bar {
+    margin: auto auto 20px 12px;
+  }
+  .searchBar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .switch {
+    margin-bottom: 20px;
+  }
+}

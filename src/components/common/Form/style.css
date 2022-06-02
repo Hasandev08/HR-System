@@ -74,3 +74,24 @@
 .delete:hover {
   box-shadow: 0 4px 24px #0000001a;
 }
+@media screen and (max-width: 425px) {
+  .container {
+    margin-bottom: 30px;
+  }
+  .update-user {
+    margin-bottom: 20px;
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  .data {
+    margin: auto 30px auto 80px;
+    border-radius: 20px;
+    padding-left: 10px;
+  }
+  .update-form-input input {
+    width: 80%;
+  }
+  .update-buttons {
+    margin: 20px 0px auto 50px;
+  }
+}

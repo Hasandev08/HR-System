@@ -52,6 +52,9 @@
   padding-bottom: 62px !important;
   margin-bottom: 20px;
 }
+.dehazeIcon {
+  display: none;
+}
 .right-section .card {
   margin: 20px 10px 20px 0px;
   padding-bottom: 25px;
@@ -95,4 +98,29 @@
 }
 .card-root .card-body {
   padding-left: 10px;
+}
+@media screen and (max-width: 425px) {
+  .people {
+    background-color: #f8f9f9;
+  }
+  .navbar {
+    margin: 0px;
+    height: 10px;
+    padding: 10px auto !important;
+  }
+  .sidebar {
+    display: none;
+  }
+  .card {
+    width: 400px;
+    border-radius: 10px !important;
+    margin-left: 12px !important;
+  }
+  .dehazeIcon {
+    display: block;
+    margin: 15px;
+  }
+  .card-scroller {
+    margin-left: 10px;
+  }
 }

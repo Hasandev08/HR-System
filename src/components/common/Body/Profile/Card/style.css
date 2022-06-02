@@ -33,3 +33,16 @@
   padding: 25px;
   font-weight: bold;
 }
+@media screen and (max-width: 425px) {
+  .profile {
+    margin-left: 25px;
+  }
+  .profile-card {
+    padding: 10px 0px 0px;
+    margin: 10px 20px;
+  }
+  .card-title {
+    margin-bottom: 0px !important;
+    border-radius: 0px 0px 20px 20px;
+  }
+}

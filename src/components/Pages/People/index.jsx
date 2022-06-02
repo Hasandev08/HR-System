@@ -5,10 +5,12 @@ import "./style.css";
 
 import PeopleIcon from "@mui/icons-material/People";
 import LogoutIcon from "@mui/icons-material/Logout";
+import DehazeIcon from "@mui/icons-material/Dehaze";
 import { green } from "@mui/material/colors";
 
 const People = () => {
   const [people, setPeople] = useState(null);
+  const [isToggled, setIsToggled] = useState(false);
 
   useEffect(() => {
     fetch("http://localhost:8000/people")
@@ -19,6 +21,10 @@ const People = () => {
         setPeople(data);
       });
   }, []);
+
+  const handleToggleClick = () => {
+    setIsToggled((e) => !e);
+  };
 
   const navigate = useNavigate();
 
@@ -37,7 +43,12 @@ const People = () => {
           </div>
         </div>
         <div className="right-section">
-          <div className="navbar"></div>
+          <div className="navbar">
+            <div className="dehazeIcon" onClick={handleToggleClick}>
+              {isToggled ? console.log("true") : console.log("false")}
+              <DehazeIcon />
+            </div>
+          </div>
           <div className="card">
             <div className="card-header">
               {people && <h2>People ({people.length})</h2>}

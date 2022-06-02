@@ -23,6 +23,11 @@ const Router = () => {
     }
   });
 
+  const logout = () => {
+    localStorage.removeItem("token");
+    setUser(null);
+  };
+
   return (
     <div className="App">
       <Routes>
